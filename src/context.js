@@ -44,7 +44,7 @@ const AppProvider = ({ children }) => {
   }
 
   const handlePage = (value) => {
-    dispatch({ type: HANDLE_PAGE, payload: value })
+    dispatch({ type: HANDLE_PAGE, payload: value, })
   }
 
   useEffect(() => {
